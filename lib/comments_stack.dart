@@ -178,6 +178,7 @@ class CommentsStackWidgetState extends State<CommentsStackWidget> {
     expandedIcon = widget.expandedIcon ?? defaultExpandedIcon;
     collapsedIcon = widget.collapsedIcon ?? defaultCollapsedIcon;
   }
+  String? qwe;
 
   @override
   Widget build(BuildContext context) {

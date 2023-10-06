@@ -17,9 +17,9 @@ List<KabUser> users = [
 KabUser currentUser = users[0];
 List<KabEntry> entries = [
   KabEntry(
-    title: 'entryA',
+    title: 'entryA qqwwee',
     byUser: users[0],
-    text: 'entryA',
+    text: 'entryA  qqwwdd',
     comments: {
       'pro': [
         KabComment(byUser: users[1], title: 'BP title', comment: 'B is pro just because', rating: {
@@ -42,7 +42,7 @@ List<KabEntry> entries = [
   KabEntry(
     title: 'entryB:',
     byUser: users[1],
-    text: 'entryB',
+    text: 'entryB qqwwdd',
     comments: {
       'pro': [
         KabComment(byUser: users[0], title: 'AP title', comment: 'A is pro just because', rating: {
@@ -65,7 +65,7 @@ List<KabEntry> entries = [
   KabEntry(
     title: 'entryE:',
     byUser: users[3],
-    text: 'entryE',
+    text: 'entryE dd',
     comments: {
       'pro': [
         KabComment(byUser: users[0], title: 'AP title', comment: 'A is pro just because', rating: {

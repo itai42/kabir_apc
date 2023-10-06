@@ -31,23 +31,27 @@ dependencies:
   flutter:
     sdk: flutter
   collapsible:
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
   sem_form_core:
     path: ../sem_form_core
-
+  fss:
+    path: ../flutter_fss
   flutter_riverpod:
   simple_html_css:
+  http:
   flutter_svg:
   hetu_script:
   hetu_script_flutter:
   langchain:
+  langchain_openai:
+  collection:
+  cross_file:
+  json_path:
+  math_expressions:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
   flutter_lints: ^2.0.0
 
 # For information on the generic Dart part of this file, see the
@@ -72,6 +76,10 @@ flutter:
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/assets-and-images/#from-packages
 
+#  fonts:
+#    - family: AppIcons.ttf
+#      fonts:
+#        - asset: packages/ui-kit/assets/icons/AppIcons.ttf
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
   # "family" key with the font family name, and a "fonts" key with a

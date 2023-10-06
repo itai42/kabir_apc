@@ -2,6 +2,7 @@ import 'package:collapsible/collapsible.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart' as intl;
+import 'package:kabir_apc/ds_widgets/entries_panel.dart';
 import 'package:sem_form_core/extensions/core_extensions.dart';
 import 'package:sem_form_core/extensions/foundation_classes.dart';
 import 'package:simple_html_css/simple_html_css.dart';
@@ -142,7 +143,7 @@ class PanelsPageState extends State<PanelsPage> {
                     left: 0,
                     width: bodySize.width - (sidebarWidth + dividerWidth),
                     height: (bodySize.height - (dividerHeight + bottomPanelSize)).ifNeg(0),
-                    child: const TopPanel()),
+                    child: const EntriesPanel()),
               if (dividerHeight > 0)
                 Positioned(
                   top: (bodySize.height - (dividerHeight + bottomPanelSize)).ifNeg(0),

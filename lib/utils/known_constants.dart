@@ -156,18 +156,18 @@ abstract class KnownStrings {
 }
 
 abstract class KnownIcons {
-  static const IconData brailleBlank = IconData(UnicodeChars.brailleBlank);
-  static const IconData vMark = IconData(UnicodeChars.vMark);
-  static const IconData xMark = IconData(UnicodeChars.xMark);
-  static const IconData dash = IconData(UnicodeChars.dash);
+  // static const IconData brailleBlank = IconData(UnicodeChars.brailleBlank, fontFamily: 'MaterialIcons');
+  // static const IconData vMark = IconData(UnicodeChars.vMark, fontFamily: 'MaterialIcons');
+  // static const IconData xMark = IconData(UnicodeChars.xMark, fontFamily: 'MaterialIcons');
+  static const IconData dash = IconData(UnicodeChars.dash, fontFamily: 'CupertinoIcons.ttf');
 
   /// <i class="material-icons-outlined md-36">pause</i> &#x2014; material icon named "pause" (outlined).
-  static const IconData ellipsis = IconData(UnicodeChars.ellipsis);
-  static const IconData starOfDavid = IconData(UnicodeChars.starOfDavid);
+  // static const IconData ellipsis = IconData(UnicodeChars.ellipsis, fontFamily: 'MaterialIcons');
+  // static const IconData starOfDavid = IconData(UnicodeChars.starOfDavid, fontFamily: 'MaterialIcons');
 
   ///⚕
-  static const IconData aesculapius = IconData(UnicodeChars.aesculapius);
+  // static const IconData aesculapius = IconData(UnicodeChars.aesculapius, fontFamily: 'MaterialIcons');
 
-  static const IconData noEntry = IconData(UnicodeChars.noEntry);
-  static const IconData sandwich = IconData(UnicodeChars.sandwich);
+  // static const IconData noEntry = IconData(UnicodeChars.noEntry, fontFamily: 'MaterialIcons');
+  // static const IconData sandwich = IconData(UnicodeChars.sandwich, fontFamily: 'MaterialIcons');
 }
